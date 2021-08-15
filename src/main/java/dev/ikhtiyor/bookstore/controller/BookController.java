@@ -17,7 +17,7 @@ import javax.validation.Valid;
  * 29/07/21
  **/
 
-@CrossOrigin(origins = "*")
+@CrossOrigin
 @RestController
 @RequestMapping("/api/book")
 public class BookController {
